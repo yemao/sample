@@ -53,6 +53,11 @@
    background-color: $navbar-color;
  }
 
+ .alert-status {
+  @extend .alert-info;
+}
+
+
  #logo {
    float: left;
    margin-right: 10px;
